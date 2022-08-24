@@ -25,7 +25,7 @@ jobs:
       - name: Run unit tests with nose
         run: |
             nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
-    steps: 
+    steps:
       - name: Upload code coverage
       - uses: codecov/wtecc-CICD_PracticeCode@v2
         with:
