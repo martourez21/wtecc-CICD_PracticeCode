@@ -30,7 +30,7 @@ jobs:
     steps:
     - name: Upload code coverage
     - uses: codecov/wtecc-CICD_PracticeCode@v2
-        with:
+      with:
             token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
             files: ./coverage1.xml
             flags: unittests
