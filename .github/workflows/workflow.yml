@@ -25,9 +25,9 @@ jobs:
             nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
  
   steps:
-  - name: Upload code coverage
-  - uses: codecov/wtecc-CICD_PracticeCode@v2
-    with:
+    - name: Upload code coverage
+    - uses: codecov/wtecc-CICD_PracticeCode@v2
+      with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
           files: ./coverage1.xml
           flags: unittests
