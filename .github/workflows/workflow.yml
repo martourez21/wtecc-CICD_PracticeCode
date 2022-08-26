@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Upload code coverage
       - uses: codecov/codecov-action@v2
-        with:
+      - with:
               token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
               files: ./coverage1.xml
               flags: unittests
