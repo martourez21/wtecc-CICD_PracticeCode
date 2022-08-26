@@ -34,3 +34,4 @@ jobs:
               files: ./coverage1.xml
               flags: unittests
               verbose: true
+              version: "v0.1.13"
