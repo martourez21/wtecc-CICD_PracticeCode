@@ -35,4 +35,4 @@ jobs:
               flags: unittests
               fail_ci_if_error: true # optional (default = false)
               verbose: true # optional (default = false)
-              version: "v0.1.13"  
+              version: "v0.1.15"  
