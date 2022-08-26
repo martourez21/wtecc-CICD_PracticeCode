@@ -33,3 +33,4 @@ jobs:
               token: ${{ secrets.CODECOV_TOKEN }}
               files: ./coverage1.xml
               flags: unittests
+              verbose: true
