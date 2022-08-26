@@ -25,10 +25,9 @@ jobs:
     - name: Run unit tests with nose
       run: |
             nosetests -v --with-spec --spec-color --with-coverage --cover-package=app
-  build: 
+
     steps:
-    - name: Upload code coverage
-   
+    - name: Upload code coverage 
     - uses: codecov/wtecc-CICD_PracticeCode@v2
       with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
